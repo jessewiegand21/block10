@@ -1,0 +1,31 @@
+img {
+    width: 100%;
+}
+#fname {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#lname {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#email {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+button {
+    margin-top: 18px;
+}
+.logo {
+    font-size: 200px;
+    text-align: center;
+}
+body {
+    background-color: lightgray;
+}
