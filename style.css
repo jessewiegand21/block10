@@ -1,5 +1,6 @@
 img {
     width: 100%;
+    z-index: 1;
 }
 #fname {
     margin-top: 20px;
@@ -19,13 +20,33 @@ form {
     justify-content: space-between;
     margin-right: 20px;
 }
-button {
-    margin-top: 18px;
-}
+
+
 .logo {
-    font-size: 200px;
-    text-align: center;
+    font-size: 100px;
+    margin-left: 30px;
+    margin-top: -200px;
+    color: white;
+    font-family: cursive;
+    z-index: 99;
 }
 body {
     background-color: lightgray;
 }
+#button {
+    margin-top: 10px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+@media  (max-width: 1024px) {
+.logo {
+    color: blue;
+}
+}
+@media  (max-width: 480px)  {
+.logo   {
+    color: green;
+}
+}
+
+
